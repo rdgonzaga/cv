@@ -1,0 +1,36 @@
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.maf
+*.mtc
+*.mtc0
+*.nav
+*.nlo
+*.out
+*.pdf
+*.pdfsync
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.bbl
+*.blg
+*.run.xml
+*-blx.bib
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

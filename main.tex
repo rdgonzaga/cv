@@ -1,0 +1,181 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez (Refactored by Rainer Gonzaga for readability)
+%------------------------
+
+\documentclass[letterpaper,11.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt} 
+
+% Adjust margins to fit one page comfortably
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting 
+\titleformat{\section}{
+  \vspace{-5pt}\bfseries\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{5pt}]
+
+\pdfgentounicode=1
+
+% 1. MAIN HEADING (Use for Schools and Companies)
+\newcommand{\HeadingMain}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% 2. SUB-HEADING 
+\newcommand{\HeadingSub}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% 3. PROJECT HEADING 
+\newcommand{\HeadingProject}[2]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% 4. BULLET POINT
+\newcommand{\ResumeBullet}[1]{
+  \item\small{#1}
+}
+
+% 5. LIST CONTROLS (Tuned for a perfect 1-page fit)
+\newcommand{\ListStartMain}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=-5pt, topsep=1pt]}
+\newcommand{\ListEndMain}{\end{itemize}}
+
+\newcommand{\ListStartBullets}{\begin{itemize}[leftmargin=0.15in, label={\tiny$\bullet$}, itemsep=1pt, topsep=2pt, parsep=0pt]}
+\newcommand{\ListEndBullets}{\end{itemize}\vspace{2pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%
+%-------------------------------------------
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Rainer Gonzaga} \\ \vspace{1pt} 
+    \small {{rainerdgonzaga@gmail.com}} $|$ 
+    \href{https://www.raigon.dev/}{\underline{raigon.dev}}
+    \href{https://linkedin.com/in/rdgonzaga}{\underline{LinkedIn}} $|$ 
+    \href{https://github.com/rdgonzaga}{\underline{Github}}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \ListStartMain
+    \HeadingMain
+      {De La Salle University}{Expected Graduation: Sep 2028} 
+      {Bachelor of Science in Computer Science, Major in Network and Information Security}{Manila, Philippines} 
+  \ListEndMain
+
+
+%-----------WORK EXPERIENCE AND LEADERSHIP ROLES -----------
+\section{Work Experience \& Leadership Roles}
+  \ListStartMain
+
+    \HeadingMain
+      {DeckTradr}{Apr 2026 -- Present} 
+      {Software QA \& Machine Learning Specialist}{} 
+      \ListStartBullets
+        \ResumeBullet{Annotated datasets and trained custom machine learning models for optical character recognition (OCR), image recognition, and an AI card condition grading system, improving scanner accuracy by over 30\%} 
+        \ResumeBullet{Conducted QA testing across iOS and web builds for a TCG point-of-sale and inventory management system, streamlining the support funnel and ensuring platform reliability} 
+        \ResumeBullet{Collaborated on data-driven marketing initiatives, conceptualizing content strategies based on TCG price trends}
+      \ListEndBullets
+
+    \HeadingMain
+      {Yergoods}{Apr 2026 -- Jul 2026} 
+      {Full Stack Shopify Developer}{} 
+      \ListStartBullets
+        \ResumeBullet{Engineered a custom JavaScript Web Pixel to bypass Shopify's sandbox constraints, securing accurate e-commerce purchase and conversion tracking.}
+        \ResumeBullet{Established robust backend API linkages connecting Shopify with Google Merchant Center, Google Ads, and Google Analytics.} 
+        \ResumeBullet{Conducted live end-to-end simulated checkout QA testing to debug, verify, and optimize tracking pipelines.} 
+        \ResumeBullet{Synthesized multi-platform data to optimize checkout conversions, ultimately driving a 55.97\% increase in total sales.}
+      \ListEndBullets
+  
+    \HeadingMain
+      {La Salle Computer Society}{Oct 2024 -- Aug 2026} 
+      {Associate Backend Engineer}{} 
+      \ListStartBullets
+        \ResumeBullet{Architected the backend infrastructure for ArcherBytes, a centralized academic resource platform built for over 20,000 DLSU students, using Next.js and PostgreSQL.} 
+        \ResumeBullet{Designed and implemented scalable database schemas using Drizzle ORM, ensuring robust data integrity for complex content types, user reactions, and community-driven features.} 
+        \ResumeBullet{Engineered secure authentication and authorization flows by integrating Better Auth with Google Auth, enabling school-exclusive access and protected community interactions within the DLSU ecosystem.} 
+        \ResumeBullet{Recognized as Rank 2 in the Research and Development committee (Term 1 \& Term 2, A.Y. 2025-2026) for exceptional technical contributions and leadership performance.} 
+      \ListEndBullets
+      
+  \ListEndMain
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \ListStartMain
+    \HeadingProject
+        {\textbf{Vibe-Coded Website Fuzzer} $|$ \emph{Python}}{In Development} 
+        \ListStartBullets
+          \ResumeBullet{Engineered a hybrid security scanner and fuzzer in Python to audit LLM-generated ("vibe-coded") applications, targeting vulnerabilities introduced during rapid AI-assisted development.}
+          \ResumeBullet{Implemented static analysis to detect hardcoded secrets and weak JWT validation, alongside dynamic endpoint fuzzing to uncover IDOR flaws, missing rate limits, and leaked stack traces.}
+        \ListEndBullets
+        
+    \HeadingProject
+        {\textbf{AnimoNotes} $|$ \emph{Next.js, TypeScript, Prisma, Postgres, Better Auth}}{Apr 2026} 
+        \ListStartBullets
+          \ResumeBullet{Developed a full-stack web application to centralize and streamline the sharing of academic resources for students within the College of Computer Studies at De La Salle University} 
+          \ResumeBullet{Engineered a responsive, type-safe frontend utilizing Next.js and TypeScript, and integrated Better Auth to enforce secure, student-exclusive authentication flows}
+          \ResumeBullet{Architected the backend infrastructure using Prisma ORM and PostgreSQL, designing scalable database schemas for efficient storage and fast retrieval of user-generated study materials}
+        \ListEndBullets
+
+    
+  \ListEndMain
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}, topsep=2pt]
+    \small{\item{
+     \textbf{Security}{: Kali Linux, Networking, Python Automation, Wireshark, Nessus, Nmap, Burp Suite, Metasploit} \\ 
+     \textbf{Frontend}{: JavaScript, TypeScript, React, Next.js, Tailwind CSS, Styled Components, HTML5/CSS, Vite, ESLint, Prettier} \\ 
+     \textbf{Backend}{: Node.js, Python, Java, C, PHP, Express.js, NestJS, FastAPI, PostgreSQL, MySQL, Prisma, Drizzle, REST, JWT} \\ 
+     \textbf{DevOps / Cloud}{: GitHub Actions, GitLab CI, Docker} \\
+     \textbf{AI \& Machine Learning}{: TensorFlow, NumPy, Pandas, Scikit-Learn, Anthropic, Antigravity, Claude Code, Opencode} 
+    }}
+ \end{itemize}
+%-------------------------------------------
+\end{document}
