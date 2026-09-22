@@ -14,7 +14,7 @@
 ## Work Experience & Leadership Roles
 
 **DeckTradr** | *Apr 2026 – Present*  
-*Software QA & Machine Learning Specialist*  
+*AI & Brand Design Engineer*  
 - Annotated datasets and trained custom machine learning models for optical character recognition (OCR), image recognition, and an AI card condition grading system, improving scanner accuracy by over 30%.
 - Conducted QA testing across iOS and web builds for a TCG point-of-sale and inventory management system, streamlining the support funnel and ensuring platform reliability.
 - Collaborated on data-driven marketing initiatives, conceptualizing content strategies based on TCG price trends.
