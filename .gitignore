@@ -34,3 +34,6 @@
 Thumbs.db
 .vscode/
 .idea/
+
+# Per-company tailored CVs (private)
+custom-cvs/

@@ -15,7 +15,7 @@
 
 **ING Hubs Philippines** | *Oct 2026 – Present*  
 *Java Engineer Intern*
-- Built a Java Spring Boot REST endpoint for rebatching bank transactions.
+- Built a Java Spring Boot REST endpoint for rebatching bank transactions on a real-time payments team.
 - Ran daily SQL and Jupyter Notebook reconciliation reports on hundreds of GBs of transaction and balance data, surfacing discrepancies for the finance team.
 - Fixed bugs and shipped features in Java and SQL services alongside senior Java engineers in an Agile team with daily standups and sprint retrospectives.
 
@@ -55,4 +55,5 @@
 - **Security**: Linux (Kali), TCP/IP, Wireshark, Nmap, Nessus, Burp Suite, Metasploit
 - **Frontend**: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML5/CSS
 - **Backend**: Java, Spring Boot, Python, Node.js, SQL, PostgreSQL, FastAPI, Express.js, NestJS, Prisma, Drizzle, REST, JWT
-- **DevOps & AI**: Git, GitHub Actions, Docker, TensorFlow, NumPy, pandas, scikit-learn, Jupyter, GitHub Copilot, Claude Code
+- **DevOps & AI**: Git, GitHub Actions, Azure DevOps, Azure, Docker, TensorFlow, NumPy, pandas, scikit-learn, Jupyter, GitHub Copilot, Claude Code
+- **Payments**: Real-Time Payments, ISO 20022, SEPA Credit Transfer, SEPA Direct Debit
