@@ -104,46 +104,49 @@
 \section{Education}
   \ListStartMain
     \HeadingMain
-      {De La Salle University}{Expected Graduation: Sep 2028} 
+      {De La Salle University}{Expected Graduation: Aug 2028} 
       {Bachelor of Science in Computer Science, Major in Network and Information Security}{Manila, Philippines} 
   \ListEndMain
 
 
 %-----------WORK EXPERIENCE AND LEADERSHIP ROLES -----------
-\section{Work Experience \& Leadership Roles}
+\section{Experience}
   \ListStartMain
 
     \HeadingMain
       {ING Hubs Philippines}{Oct 2026 -- Present}
-      {Shared Tech Intern}{}
+      {Java Engineer Intern}{}
+      \ListStartBullets
+        \ResumeBullet{Built a Java Spring Boot REST endpoint for rebatching bank transactions.}
+        \ResumeBullet{Ran daily SQL and Jupyter Notebook reconciliation reports on hundreds of GBs of transaction and balance data, surfacing discrepancies for the finance team.}
+        \ResumeBullet{Fixed bugs and shipped features in Java and SQL services alongside senior Java engineers in an Agile team with daily standups and sprint retrospectives.}
+      \ListEndBullets
 
     \HeadingMain
       {DeckTradr}{Apr 2026 -- Sep 2026} 
       {AI \& Brand Design Engineer}{}
       \ListStartBullets
-        \ResumeBullet{Annotated datasets and trained custom machine learning models for optical character recognition (OCR), image recognition, and AI-based card condition grading, improving scanner accuracy by over 30\%.} 
-        \ResumeBullet{Conducted QA testing across iOS and web builds for a TCG point-of-sale and inventory management system, streamlining the support funnel and ensuring platform reliability.} 
-        \ResumeBullet{Automated marketing workflows with Claude for AI-driven content generation and TCG price-trend analysis, streamlining campaign planning and reporting.}
+        \ResumeBullet{Annotated datasets and trained machine learning models for optical character recognition (OCR), image recognition, and AI-based card condition grading, improving scanner accuracy by over 30\%.} 
+        \ResumeBullet{Conducted QA testing across iOS and web builds for a TCG point-of-sale and inventory management system.} 
+        \ResumeBullet{Automated marketing workflows with Claude for AI-generated content and TCG price-trend analysis.}
       \ListEndBullets
 
     \HeadingMain
       {Yergoods (Yerkoo)}{Apr 2026 -- Jul 2026} 
       {Full Stack Shopify Developer}{} 
       \ListStartBullets
-        \ResumeBullet{Engineered a custom JavaScript Web Pixel to bypass Shopify's sandbox constraints, securing accurate e-commerce purchase and conversion tracking.}
-        \ResumeBullet{Established backend API linkages connecting Shopify with Google Merchant Center, Google Ads, and Google Analytics.} 
-        \ResumeBullet{Performed end-to-end simulated checkout QA testing to debug, verify, and optimize tracking pipelines.} 
-        \ResumeBullet{Synthesized multi-platform data to optimize checkout conversions, ultimately driving a 55.97\% increase in total sales.}
+        \ResumeBullet{Engineered a custom JavaScript Web Pixel within Shopify's sandbox for accurate purchase and conversion tracking.}
+        \ResumeBullet{Integrated Shopify with Google Merchant Center, Google Ads, and Google Analytics.} 
+        \ResumeBullet{Analyzed multi-platform data to optimize checkout conversions, contributing to a 56\% increase in total sales.}
       \ListEndBullets
   
     \HeadingMain
       {La Salle Computer Society}{Oct 2024 -- Aug 2026} 
       {Associate Backend Engineer}{} 
       \ListStartBullets
-        \ResumeBullet{Architected the backend infrastructure for ArcherBytes, a centralized academic resource platform built for over 20,000 DLSU students, using Next.js and PostgreSQL.} 
-        \ResumeBullet{Designed scalable Drizzle ORM database schemas for content types, user reactions, and community features.} 
-        \ResumeBullet{Integrated Better Auth with Google Auth for secure, school-exclusive authentication across the DLSU ecosystem.} 
-        \ResumeBullet{Earned Rank 2 in the Research and Development committee (Term 1 \& Term 2, A.Y. 2025-2026) for technical contributions and leadership performance.} 
+        \ResumeBullet{Architected the backend infrastructure for ArcherBytes, an academic resource platform for 20,000+ DLSU students, using Next.js and PostgreSQL.} 
+        \ResumeBullet{Designed Drizzle ORM database schemas for content types, user reactions, and community features.} 
+        \ResumeBullet{Implemented Better Auth with Google sign-in restricted to DLSU accounts.} 
       \ListEndBullets
       
   \ListEndMain
@@ -153,17 +156,16 @@
 \section{Projects}
   \ListStartMain
     \HeadingProject
-        {\textbf{ReSole} $|$ \emph{React Native (Expo), Next.js, Supabase, TensorFlow Lite, Gemini 2.5 Flash}}{Aug 2026} 
+        {\textbf{\href{https://rdgonzaga.github.io/f1-prediction/}{Parc Fermé}} $|$ \emph{Python, XGBoost, scikit-learn, pandas, GitHub Actions}}{Apr 2026 -- Present}
         \ListStartBullets
-          \ResumeBullet{Engineered a peer-to-peer footwear resale marketplace in React Native (Expo), integrating on-device computer vision (YOLOv8 Nano, TensorFlow Lite) and Gemini 2.5 Flash for automated condition grading and real-time price prediction.}
-          \ResumeBullet{Built the Next.js, PostgreSQL, and Supabase backend with Drizzle ORM schemas and Better Auth for secure listings and transactions.}
+          \ResumeBullet{Built an XGBoost ranking model, trained on 2022--2025 race data, that predicts F1 finishing order and each driver's win, podium, points, and DNF odds after qualifying.}
+          \ResumeBullet{Runs live every race weekend via GitHub Actions since mid-2026; correctly predicted 78\% of podium finishers, beating the 56\% from simply using the starting grid.}
         \ListEndBullets
 
     \HeadingProject
-        {\textbf{PromptPatrol} $|$ \emph{Python}}{Aug 2026} 
+        {\textbf{VibeCheck} $|$ \emph{Python}}{Aug 2026} 
         \ListStartBullets
-          \ResumeBullet{Engineered a hybrid SAST + DAST scanner in Python to audit LLM-generated ("vibe-coded") web apps for architectural blind spots introduced by AI codegen, statically flagging hardcoded secrets, unauthenticated routes, and weak JWT configuration.}
-          \ResumeBullet{Built a dynamic fuzzing module to uncover IDOR flaws, missing rate limits, and verbose error leaks, automatically scoring each finding with a built-in CVSS v3.1 model.}
+          \ResumeBullet{Built a hybrid SAST + DAST scanner in Python that audits AI-generated ("vibe-coded") web apps, flagging hardcoded secrets, unauthenticated routes, and weak JWT configuration.}
         \ListEndBullets
 
     
@@ -173,11 +175,10 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}, topsep=2pt]
     \small{\item{
-     \textbf{Security}{: Kali Linux, Networking, Python Automation, Wireshark, Nessus, Nmap, Burp Suite, Metasploit} \\ 
-     \textbf{Frontend}{: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML5/CSS, Vite} \\ 
-     \textbf{Backend}{: Node.js, Python, Java, C, PHP, Express.js, NestJS, FastAPI, PostgreSQL, Prisma, Drizzle, REST, JWT} \\ 
-     \textbf{DevOps / Cloud}{: GitHub Actions, Docker} \\
-     \textbf{AI \& Machine Learning}{: TensorFlow, NumPy, Pandas, Scikit-Learn, Anthropic, Claude Code} 
+     \textbf{Security}{: Linux (Kali), TCP/IP, Wireshark, Nmap, Nessus, Burp Suite, Metasploit} \\ 
+     \textbf{Frontend}{: JavaScript, TypeScript, React, Next.js, Tailwind CSS, HTML5/CSS} \\ 
+     \textbf{Backend}{: Java, Spring Boot, Python, Node.js, SQL, PostgreSQL, FastAPI, Express.js, NestJS, Prisma, Drizzle, REST, JWT} \\ 
+     \textbf{DevOps \& AI}{: Git, GitHub Actions, Docker, TensorFlow, NumPy, pandas, scikit-learn, Jupyter, GitHub Copilot, Claude Code} 
     }}
  \end{itemize}
 %-------------------------------------------
