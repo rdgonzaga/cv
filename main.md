@@ -31,7 +31,7 @@
 - Integrated Shopify with Google Merchant Center, Google Ads, and Google Analytics.
 - Analyzed multi-platform data to optimize checkout conversions, contributing to a 56% increase in total sales.
 
-**La Salle Computer Society** | *Oct 2024 – Aug 2026*  
+**La Salle Computer Society** | *Sep 2025 – Aug 2026*  
 *Associate Backend Engineer*  
 - Architected the backend infrastructure for ArcherBytes, an academic resource platform for 20,000+ DLSU students, using Next.js and PostgreSQL.
 - Designed Drizzle ORM database schemas for content types, user reactions, and community features.
